@@ -1,3 +1,4 @@
-fastapi
-uvicorn
-websockets
+numpy==2.4.0
+Shapely==2.1.2
+tqdm==4.67.1
+websockets==13.1
