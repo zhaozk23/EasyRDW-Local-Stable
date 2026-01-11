@@ -44,3 +44,8 @@ class Space:
             if polygon.contains(Point(x,y)):
                 return True
         return False
+    
+    def get_center(self):
+        c_x = sum([t[0] for t in self.border])/len(self.border)
+        c_y = sum([t[1] for t in self.border])/len(self.border)
+        return c_x, c_y
